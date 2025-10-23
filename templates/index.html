@@ -7,3 +7,39 @@
     <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
 
 </head>
+<body>
+    <header>
+    <div class="logo">
+      <img src="../static/src/logo.jpg" alt="Logo Yakissopa">
+      <h1>YAKISSOPA</h1>
+    </div>
+    <nav>
+      <a href="#">CRIAR CONTA</a>
+      <a href="{{ url_for('login') }}" class="entrar">ENTRAR</a>
+    </nav>
+  </header>
+
+  <main>
+    <h2>VENHA PROVAR DA CULINÁRIA MAIS TOP</h2>
+
+    <section class="categorias">
+      <div class="categoria">
+        <img src="../static/src/1.jpg" alt="Bebidas">
+        <h3>BEBIDAS</h3>
+      </div>
+      <div class="categoria">
+        <img src="../static/src/2.jpg" alt="Comidas">
+        <h3>COMIDAS</h3>
+      </div>
+      <div class="categoria">
+        <img src="../static/src/3.jpg" alt="Acompanhamentos">
+        <h3>ACOMPANHAMENTOS</h3>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>© 2025 YAKISSOPA - Todos os direitos reservados</p>
+  </footer>
+</body>
+</html>
