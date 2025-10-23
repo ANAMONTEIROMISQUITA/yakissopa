@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - Yakissopa</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='login.css') }}">
+</head>
+<body>
+    <div class="container">
+        <div class="login-box">
+            <img src="logo.png" alt="Logo Yakissopa" class="logo">
+            <h1>YAKISSOPA</h1>
+
+            <form>
+                <label for="email">EMAIL OU CPF:</label>
+                <input type="text" id="email" name="email">
+
+                <label for="senha">SENHA:</label>
+                <input type="password" id="senha" name="senha">
+
+                <div class="buttons">
+                    <button type="button" class="adm">ADM</button>
+                    <button type="button" class="usuario">USUÁRIO</button>
+                </div>
+
+                <a href="#" class="criar-conta">CRIAR CONTA</a>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
