@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+}
+
+body {
+  background-color: #d1c2b2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  background-color: #F8F2E4;
+  border: 3px solid #ccc;
+  padding: 40px 60px;
+  border-radius: 15px;
+  text-align: center;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+  width: 800px;
+}
+
+.logo {
+  width: 150px;
+  margin-bottom: 10px;
+}
+
+h1 {
+  color: #8b1e14;
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+label {
+  align-self: flex-start;
+  color: #8b1e14;
+  font-weight: 700;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  font-size: 14px;
+}
+
+input {
+  width: 100%;
+  max-width: 800px;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  background-color: #b03022;
+  color: #fff;
+  font-weight: 600;
+  text-align: center;
+  outline: none;
+  transition: background 0.3s, transform 0.2s;
+}
+
+input::placeholder {
+  color: #F8F2E4;
+}
+
+input:focus {
+  background-color: #a12b1e;
+  transform: scale(1.02);
+}
+
+.criar-conta {
+  display: inline-block;
+  margin-top: 25px;
+  text-decoration: none;
+  color: #b03022;
+  font-weight: 600;
+  padding: 10px 30px;
+  border: 2px solid #b03022;
+  border-radius: 10px;
+  transition: all 0.3s;
+}
+
+.criar-conta:hover {
+  color: #F8F2E4;
+  background-color: #b03022;
+  border-color: #8b1e14;
+}
