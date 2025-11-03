@@ -6,3 +6,31 @@
     <title>CADASTRO</title>
     <link rel="stylesheet" href="{{ url_for('static', filename='cadastro.css') }}">
 </head>
+<body>
+    <div class="container">
+        <div class="login-box">
+            <img src="../static/src/logo.jpg" alt="Logo Yakissopa" class="logo">
+            <h1>YAKISSOPA</h1>
+
+            <form>
+                <label for="nome">NOME: </label>
+                <input type="text" id="nome" name="nome">
+
+                <label for="cpf">CPF: </label>
+                <input type="text" id="cpf" name="cpf">
+
+                <label for="email">EMAIL: </label>
+                <input type="text" id="email" name="email">
+
+                <label for="end">ENDEREÇO: </label>
+                <input type="text" id="end" name="end">
+
+                <label for="senha">SENHA: </label>
+                <input type="password" id="senha" name="senha">
+
+                <a href="#" class="criar-conta">CONFIRMAR</a>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
